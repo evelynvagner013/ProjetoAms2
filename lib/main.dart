@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
     
               new TextField(
-                style: new TextStyle(fontSize:27.0,
+                style: new TextStyle(fontSize:28.0,
                 color: const Color(0xFF000000),
                 fontWeight: FontWeight.w200,
                 fontFamily: "Merriweather"),
@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: <Widget>[
                   new Text(
                   "Preço Total:",
-                    style: new TextStyle(fontSize:27.0,
+                    style: new TextStyle(fontSize:38.0,
                     color: const Color(0xFF000000),
                     fontWeight: FontWeight.w200,
                     fontFamily: "Merriweather"),
@@ -119,11 +119,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     color: const Color(0xFFe0e0e0),
                     child:
                       new Text(
-                      "Limpar",
+                      "cancelar",
                         style: new TextStyle(fontSize:28.0,
                         color: const Color(0xFF111010),
-                        fontWeight: FontWeight.w300,
+                        fontWeight: FontWeight.w200,
                         fontFamily: "Merriweather"),
+                      
+            
+                    
                       )
                     )
                 ]
