@@ -129,7 +129,22 @@ class _MyHomePageState extends State<MyHomePage> {
                     
                       )
                     )
-                ]
+                ],
+                  new RaisedButton(key:null, onPressed:buttonPressed,
+                    color: const Color(0xFFe0e0e0),
+                    child:
+                      new Text(
+                      "cancelar",
+                        style: new TextStyle(fontSize:28.0,
+                        color: const Color(0xFF111010),
+                        fontWeight: FontWeight.w200,
+                        fontFamily: "Merriweather"),
+                      
+            
+                    
+                      )
+                    )
+                ]                
     
               )
             ]
